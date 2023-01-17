@@ -30,16 +30,19 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
+/* colors past slots a light red when time passed */
 .past {
   background-color: #f3745e;
   color: white;
 }
 
+/* colors a light blue when slot is the current time */
 .present {
   background-color: #70e9eb;
   color: white;
 }
 
+/* colors a light green when slot is in the future */
 .future {
   background-color: #78ff78;
   color: white;

@@ -42,7 +42,7 @@ function colorCoding() {
       $("#" + i).addClass("future");
     }
   }
-};
+}
 
 showDate();
 colorCoding();

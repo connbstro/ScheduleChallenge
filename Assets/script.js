@@ -52,6 +52,7 @@ function loadStorage () {
   for (let i = 9; i <= 17; i++) {
     localStorage.getItem(i);
     $("#" + i).append(localStorage.getItem(i));
+    // $("textarea").append(localStorage.getItem(i));
   }
 }
 
